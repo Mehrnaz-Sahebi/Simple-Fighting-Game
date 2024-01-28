@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGameTestBench_isim_beh.exe" -prj "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGameTestBench_beh.prj" "work.fightingGameTestBench" "work.glbl" 

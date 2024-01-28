@@ -1,0 +1,166 @@
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.xst" -ofn "C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/fightingGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fightingGame.ucf -p xc3s400-pq208-5 "fightingGame.ngc" fightingGame.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o fightingGame_map.ncd fightingGame.ngd fightingGame.pcf 
+par -w -intstyle ise -ol high -t 1 fightingGame_map.ncd fightingGame.ncd fightingGame.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fightingGame.twx fightingGame.ncd -o fightingGame.twr fightingGame.pcf -ucf fightingGame.ucf 
+bitgen -intstyle ise -f fightingGame.ut fightingGame.ncd 

@@ -1,0 +1,31 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "action1[2]" LOC = P172;
+NET "action1[1]" LOC = P175;
+NET "action1[0]" LOC = P176;
+NET "action2[2]" LOC = P161;
+NET "action2[1]" LOC = P162;
+NET "action2[0]" LOC = P165;
+NET "place1[2]" LOC = P51;
+NET "place1[1]" LOC = P50;
+NET "place1[0]" LOC = P48;
+NET "place2[2]" LOC = P61;
+NET "place2[1]" LOC = P62;
+NET "place2[0]" LOC = P63;
+NET "SEG_DATA[7]" LOC = P3;
+NET "SEG_DATA[6]" LOC = P9;
+NET "SEG_DATA[5]" LOC = P12;
+NET "SEG_DATA[4]" LOC = P4;
+NET "SEG_DATA[3]" LOC = P5;
+NET "SEG_DATA[2]" LOC = P11;
+NET "SEG_DATA[1]" LOC = P7;
+NET "SEG_DATA[0]" LOC = P10;
+NET "SEG_SEL[4]" LOC = P16;
+NET "SEG_SEL[3]" LOC = P18;
+NET "SEG_SEL[2]" LOC = P19;
+NET "SEG_SEL[1]" LOC = P20;
+NET "SEG_SEL[0]" LOC = P15;
+NET "clk" LOC = P184;
+NET "control" LOC = P183;
+NET "reset" LOC = P182;

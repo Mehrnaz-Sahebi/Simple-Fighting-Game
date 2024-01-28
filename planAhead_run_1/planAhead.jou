@@ -1,0 +1,99 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Jan 27 17:24:11 2024
+# Process ID: 5380
+# Log file: C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Asus/Desktop/Logical Circuits/LogicCircuitProject/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin P172 [get_ports {action1[2]}]
+endgroup
+startgroup
+set_property package_pin P175 [get_ports {action1[1]}]
+endgroup
+startgroup
+set_property package_pin P176 [get_ports {action1[0]}]
+endgroup
+startgroup
+set_property package_pin P161 [get_ports {action2[2]}]
+endgroup
+startgroup
+set_property package_pin P162 [get_ports {action2[1]}]
+endgroup
+startgroup
+set_property package_pin P165 [get_ports {action2[0]}]
+endgroup
+startgroup
+set_property package_pin P51 [get_ports {place1[2]}]
+endgroup
+startgroup
+set_property package_pin P50 [get_ports {place1[1]}]
+endgroup
+startgroup
+set_property package_pin P48 [get_ports {place1[0]}]
+endgroup
+startgroup
+set_property package_pin P61 [get_ports {place2[2]}]
+endgroup
+startgroup
+set_property package_pin P62 [get_ports {place2[1]}]
+endgroup
+startgroup
+set_property package_pin P63 [get_ports {place2[0]}]
+endgroup
+startgroup
+set_property package_pin P3 [get_ports {SEG_DATA[7]}]
+endgroup
+startgroup
+set_property package_pin P9 [get_ports {SEG_DATA[6]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {SEG_DATA[5]}]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports {SEG_DATA[4]}]
+endgroup
+startgroup
+set_property package_pin P5 [get_ports {SEG_DATA[3]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {SEG_DATA[2]}]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {SEG_DATA[1]}]
+endgroup
+startgroup
+set_property package_pin P10 [get_ports {SEG_DATA[0]}]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports {SEG_SEL[4]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {SEG_SEL[3]}]
+endgroup
+startgroup
+set_property package_pin P19 [get_ports {SEG_SEL[2]}]
+endgroup
+startgroup
+set_property package_pin P20 [get_ports {SEG_SEL[1]}]
+endgroup
+save_constraints
+startgroup
+set_property package_pin P15 [get_ports {SEG_SEL[0]}]
+endgroup
+startgroup
+set_property package_pin P184 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin P183 [get_ports control]
+endgroup
+save_constraints
+startgroup
+set_property package_pin P182 [get_ports reset]
+endgroup
+set_property is_loc_fixed false [get_ports [list  reset]]
+set_property is_loc_fixed true [get_ports [list  reset]]
+save_constraints

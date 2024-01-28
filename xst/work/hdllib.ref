@@ -1,0 +1,7 @@
+MO fightingGame NULL fightingGame.v vlg36/fighting_game.bin 1706452414
+MO showLives NULL showLives.v vlg28/show_lives.bin 1706452414
+MO Decoder NULL Decoder.v vlg62/_decoder.bin 1706452414
+MO player1 NULL player1.v vlg7A/player1.bin 1706452414
+MO player2 NULL player2.v vlg7B/player2.bin 1706452414
+MO clockDividerForUS NULL clockDividerForUS.v vlg3E/clock_divider_for_u_s.bin 1706452414
+MO clockDivider NULL clockDivider.v vlg4B/clock_divider.bin 1706452414

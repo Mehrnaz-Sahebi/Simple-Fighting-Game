@@ -1,0 +1,8 @@
+verilog work "showLives.v"
+verilog work "player2.v"
+verilog work "player1.v"
+verilog work "Decoder.v"
+verilog work "clockDivider.v"
+verilog work "fightingGame.v"
+verilog work "fightingGameTestBench.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

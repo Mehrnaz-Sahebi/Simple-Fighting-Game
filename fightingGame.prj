@@ -1,0 +1,7 @@
+verilog work "showLives.v"
+verilog work "player2.v"
+verilog work "player1.v"
+verilog work "Decoder.v"
+verilog work "clockDividerForUS.v"
+verilog work "clockDivider.v"
+verilog work "fightingGame.v"
